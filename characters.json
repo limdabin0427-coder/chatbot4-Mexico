@@ -1,0 +1,44 @@
+{
+  "Mexico": {
+    "name": "Miguel",
+    "name_aliases": ["Migel", "Migwell", "Miguel", "Miquel", "McGill", "Miguel's"],
+    "country": "Mexico",
+    "country_question_name": "Mexico",
+    "age": 10,
+    "gender": "male",
+    "emoji": "🇲🇽",
+    "sheet_tab": "Mexico",
+    "landing_title": "Welcome to my Country!",
+    "home_url": "https://visit-countries.lovable.app",
+    "intro_message": "It's good to see you again.",
+    "intro_speech": "Hi! It's good to see you again.",
+    "preference_food": "nachos",
+    "retry_examples": {
+      "STUDENT_QUESTION_1": "Do you like tacos?",
+      "STUDENT_QUESTION_2": "Do you like nachos?"
+    },
+    "ending_message": "Perfect! I hope to see you again! Bye-bye!",
+    "finale_message": "내 나라에 놀러 와 줘서 고마워, 친구야!\nBye-bye, my friend!",
+    "images": {
+      "flag": "Mexico flag.gif",
+      "intro_backgrounds": ["Mexico background 1.gif", "Mexico background 2.gif"],
+      "backgrounds": ["image 1.png", "image 2.png", "image 3.png", "image 4.png"],
+      "character": {
+        "greeting": "greeting.gif",
+        "speaking": "speaking.gif",
+        "yes": "yes.gif",
+        "no": "no.gif"
+      }
+    },
+    "tts": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-tts",
+      "voice": "verse",
+      "instructions": "Speak like a cheerful and friendly young boy. Use a light, clear, youthful voice with a moderately higher pitch and a warm smile. Speak at a steady, relaxed pace for Korean third-grade English learners. Sound playful and upbeat, but never rushed, breathless, deep, mature, or formal. Use clear American English. Do not add or change any words.",
+      "gender": "male",
+      "child_mode": true,
+      "rate": 0.85,
+      "pitch": 1.35
+    }
+  }
+}

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: chatbot-like-mexico
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GOOGLE_SERVICE_ACCOUNT
+        sync: false
